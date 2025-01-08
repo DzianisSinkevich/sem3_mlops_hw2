@@ -1,0 +1,15 @@
+stages:
+  # download_data:
+  #   cmd: dvc pull
+  #   outs:
+  #     - data/titanic_train.csv
+  #     - data/titanic_test.csv
+  process_data:
+    cmd: python scripts/df_process.py
+    deps:
+      - data/titanic_train.csv
+      - data/titanic_test.csv
+      - scripts/df_process.py
+    outs:
+      - data/processed_train.csv
+      - data/processed_test.csv

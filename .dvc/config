@@ -1,0 +1,4 @@
+[core]
+    remote = mlops_hw2_rs
+['remote "mlops_hw2_rs"']
+    url = gdrive://100xPCiqm0xNRqnVT9Q75PGQt4n_H1VHB
