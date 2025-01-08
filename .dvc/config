@@ -1,5 +1,5 @@
 [core]
-    remote = remote_storage
+    remote = mlops_hw2_remote_storage
 ['remote "google-drive"']
     url = ../gdrive
 ['remote "cloud-remote"']
@@ -7,3 +7,5 @@
     gdrive_acknowledge_abuse = true
 ['remote "remote_storage"']
     url = gdrive://1FqsB33XboY5juvNcPMiF1Rk2qODk_pow
+['remote "mlops_hw2_remote_storage"']
+    url = gdrive://118EVgs_Ey6bLjrLo0irViPmmmEgmlPLo
