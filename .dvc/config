@@ -1,0 +1,9 @@
+[core]
+    remote = remote_storage
+['remote "google-drive"']
+    url = ../gdrive
+['remote "cloud-remote"']
+    url = gdrive://1lpoEimFxz5B_fttwoSfm9NWfms1xv5v7
+    gdrive_acknowledge_abuse = true
+['remote "remote_storage"']
+    url = gdrive://1FqsB33XboY5juvNcPMiF1Rk2qODk_pow
